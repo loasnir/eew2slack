@@ -27,7 +27,7 @@ global.main = function () {
 global.storeTrigger = function () {
   ScriptApp.newTrigger('main')
     .timeBased()
-    .everyMinutes(15)
+    .everyMinutes(5)
     .create()
 }
 
